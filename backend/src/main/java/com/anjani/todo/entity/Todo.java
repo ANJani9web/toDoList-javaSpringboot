@@ -125,8 +125,8 @@ public class Todo {
         this.dueTime = dueTime;
     }
 
-    protected Todo() {
-        // Default constructor for JPA
+    public Todo() {
+        // No-argument constructor required by JPA
     }
 
 }
